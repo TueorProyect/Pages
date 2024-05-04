@@ -3,14 +3,19 @@ import Layout from '../layouts/Layout.astro';
 import Hero from '../components/Hero.astro';
 import Navbar from '../components/Navbar.astro';
 import CartLogo from '../components/CartLogo.astro';
+import Productos from '../components/Productos.astro';
 ---
 
 <Layout title="Tueor">
     <Navbar></Navbar>
     <Hero></Hero>
     <div class="pt-32 container mx-6">
-        <h2 class="text-5xl my-8 mx-10 uppercase">Lorem</h2>
+        <h2 class="text-5xl my-8 mx-10 capitalize">Lorem</h2>
         <CartLogo/>
+    </div>
+    <div class="pt-32">
+        <h2 class="text-5xl my-8 mx-10 capitalize">Nuestro Productos</h2>
+        <Productos/>
     </div>
     <div class="fixed bottom-0 right-0 p-4 h-40 w-40 hover:h-48 hover:w-44">
             <img src="/Rana para pagina.png" alt="" >
