@@ -1,8 +1,18 @@
 ---
+import CartLogo from "../components/CartLogo.astro";
 import Footer from "../components/Footer.astro";
+import Navbar from "../components/Navbar.astro";
+import Mision from "../components/Nosotros componentes/Mision.astro";
 import Layout from "../layouts/Layout.astro";
 ---
 <Layout title="Sobre Tueor">
+    <Navbar/>
+    <div class="container py-10 mx-6">
+        <CartLogo/>
+    </div>
+    <div class="container m-6">
+        <Mision/>
+    </div>
 
     <Footer></Footer>
 </Layout>
