@@ -12,16 +12,24 @@ import Footer from '../components/Footer.astro';
 <Layout title="Tueor">
     <Navbar></Navbar>
     <Hero></Hero>
-    <div class="pt-32 container mx-6">
+    <div class="pt-32">
         <h2 class="text-5xl my-8 mx-10 capitalize text-teal-600">¿Quienes somos?</h2>
-        <CartLogo/>
+        <div class="w-full flex justify-center ">
+            <CartLogo/>
+        </div>
     </div>
+
     <div class="pt-32">
         <h2 class="text-5xl my-8 mx-10 capitalize text-teal-800">Nuestro<span class="text-teal-500 underline decoration-wavy">Productos</span></h2>
-        <Productos/>
+        <div class="w-full flex justify-center">
+            <Productos/>
+        </div>
     </div>
+
     <div class="pt-20">
-        <Contacto></Contacto>
+        <div class="w-full flex justify-center">
+            <Contacto/>
+        </div>
     </div>
     <div class="pt-20">
         <Suscripcion></Suscripcion>
